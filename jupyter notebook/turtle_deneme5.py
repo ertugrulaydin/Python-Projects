@@ -1,0 +1,17 @@
+import turtle
+t=turtle.Turtle()
+t.shape("turtle")
+t.speed(1)
+t.pensize(4)
+t.pen(fillcolor="red",pencolor="blue")
+t.begin_fill()
+t.forward(100)
+t.right(90)
+t.forward(100)
+t.right(90)
+t.forward(100)
+t.right(90)
+t.forward(100)
+t.end_fill()
+import time
+time.sleep(10)
